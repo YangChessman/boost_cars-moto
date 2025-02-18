@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="/static/style/style_login.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-name">
+                <img src="/public/img/logo.png" alt="logo">
+                <p>Буст</p>
+            </div>
+            <div class="nav-button">
+                <button class="btn active" id="btn-registration">Регистрация</button>
+                <button class="btn" id="btn-login">Войти</button>
+            </div>
+        </nav>
+    </div>
+    <div class="card">
+        <div class="form-box">
+            <!-- Регистрация -->
+            <div class="registr-container" id="register">
+                <div class="top">
+                    <h1>
+                        Регистрация
+                    </h1>
+                </div>
+                <div class="name-inp">
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Имя" id="firstName">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Фамилия" id="lastName">
+                    </div>
+                </div>
+                <div class="bot">
+                    <div class="input-box">
+                        <input type="tel" id="tel" class="input-field" placeholder="Номер телефона">
+                    </div>
+                    <div class="input-box">
+                        <input type="password" class="input-field" placeholder="Пароль" id="password">
+                    </div>
+                    <div class="reg-btn">
+                        <form action="car.html" method="get">
+                            <button class="reg" id="registerBtn">Зарегистрироваться</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!--  Вход -->
+            <div class="login-container" id="login">
+                <div class="top">
+                    <h1>
+                        Авторизация
+                    </h1>
+                </div>
+                <div class="bot">
+                    <div class="input-box">
+                        <input type="tel" id="loginTel" class="input-field" placeholder="Номер телефона">
+                    </div>
+                    <div class="input-box">
+                        <input type="password" class="input-field" placeholder="Пароль" id="loginPassword">
+                    </div>
+                    <div class="login-btn">
+                        <form action="car.html" method="get">
+                            <button class="login" id="loginBtn">Войти</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="niz">
+        <div class="container">
+            <div class="cart-container">
+                <img src="/public/img/login/idea.png" />
+            </div>
+            <div class="txt-cont-one">
+                <h1>
+                    улучшаемся вместе с вами
+                </h1>
+                <p>
+                    Нам нужны новые инвесторы, чтобы становиться лучше
+                </p>
+                <div class="btn-invest">
+                    <button class="go">Стать инвестором</button>
+                    <button class="detals">Детали</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cart-container">
+                <div class="soder_two">
+                    <h1>
+                        БУСТ
+                    </h1>
+                    <p class="plus">
+                        Плюс
+                    </p>
+                </div>
+            </div>
+            <div class="txt-cont-two">
+                <h1>будьте в плюсе с буст</h1>
+                <div class="price">
+                    <h4>119 ₽</h4>
+                    <p> / мес</p>
+                </div>
+                <p>Скидки, акции, выгодные предложения, встречи, вечеринки и многое другое в подписке Буст Прйм</p>
+                <div class="btn-plus">
+                    <button class="go">Буст Плюс</button>
+                    <button class="detals">Детали</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/scripts/script.js"></script>
+</body>
+
+</html>

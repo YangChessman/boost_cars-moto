@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главное меню</title>
+    <link rel="stylesheet" href="/static/style/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-name">
+                <img src="/public/img/logo.png" alt="logo">
+                <p>Буст</p>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#car-auto" id="avt_menu">Авто</a></li>
+                    <li><a href="#moto-car">Мото</a></li>
+                    <li><a href="#job">Работа</a></li>
+                    <li><a href="#dosk">Доска</a></li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <form action="login.html" method="get">
+                    <button class="btn_sign" type="submit">Войти</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div class="citat">
+        <p>
+            Каждый километр — новая история: арендуйте и отправляйтесь в путь!
+        </p>
+    </div>
+    <div class="gorod">
+        <p>работаем в вашем городе —</p>
+        <p class="omsk">Омск</p>
+    </div>
+    <div class="auto" id="car-auto">
+        <div class="name">
+            <p class="name_auto_lux">Люксовые</p><p class="name_auto_avt">автомобили</p>    
+        </div>
+        <div class="prav">
+            <p>Нужны 18 лет жизни, права категории В, стаж не обязателен</p>
+        </div>
+        <section class="cars" id="cars">
+            <article class="car1" >
+                <img src="/public/img/ford.png" alt="ford">
+                <p>Ford Mustang Convertible</p>
+            </article>
+                <article class="car2">
+                    <img src="/public/img/audi.jpg" alt="audi">
+                    <p>audi r8</p>
+                </article>
+            <article class="car3">
+                <img src="/public/img/mers.jpg" alt="mers">
+                <p>Mercedes C180 Convertible</p>
+            </article>
+        </section>
+    </div>
+
+    <div class="auto" id="moto-car">
+        <div class="name">
+            <p class="name_auto_lux">лучшие</p><p class="name_auto_avt">мотоциклы</p>    
+        </div>
+        <div class="prav">
+            <p>Нужны 18 лет жизни, права категории А и стаж 2 года</p>
+        </div>
+        <section class="cars" id="moto">
+            <article class="moto1">
+                <img src="/public/img/bmw.png" alt="bmw">
+                <p>BMW 1000RR Sport</p>
+            </article>
+                <article class="moto2">
+                    <img src="/public/img/kawasaki.png" alt="kawasaki">
+                    <p>Kawasaki z800 sport</p>
+                </article>
+            <article class="moto3">
+                <img src="/public/img/honda.jpg" alt="honda">
+                <p>honda cbr 250r street</p>
+            </article>
+        </section>
+    </div>
+    <div class="job" id="job">
+        <p>Не упустите шанс воспользоваться нашими выгодными <br> 
+            предложениями и стать частью нашего путешествия. А<br>
+            если вы ищете работу в динамичной и перспективной<br>
+            компании, у нас есть вакансии для вас!<br>
+            Присоединяйтесь к команде "Буст" и развивайтесь<br>
+            вместе с нами.</p>
+            <button class="btn_job">хочу работать</button>
+    </div>
+
+    <div class="dosk" id="dosk">
+        <div class="dosk-inf-left">
+            <div class="dosk-name">
+            <img src="/public/img/logo.png" alt="logo">
+            <p>Буст</p>
+            </div>
+            <article class="vibor">
+            <ul class="vibor_carsh">
+                <li>Каршеринг</li>
+                <li class="mot-car">Аватомобили</li>
+                <li class="mot-car">Мотоциклы</li>
+            </ul>
+            </article>
+            <article class="client">
+                <p class="name">нашим клиентам</p>
+                <ul class="cl">
+                    <li><a href="#">Служба поддержки</a></li>
+                    <li><a href="#">Справка</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Договор аренды</a></li>
+                </ul>
+            </article>
+        </div>
+        <div class="dosk-inf-right">
+            <article class="gorod-dosk">
+                <p class="gorod-name">ваш город</p>
+                <p class="om">Омск</p>
+            </article>
+            <article class="recl-dosk">
+                <p class="rec">по поводу рекламы</p>
+                <p class="gmail"><a href="mailto:kovrigasa@college.omsu.ru">kovrigasa@college.omsu.ru</a></p>
+            </article>
+            <article class="seti-dosk">
+                <p class="seti">подписывайтесь на соцсети</p>
+                <div class="ssilki">
+                    <div class="tg">
+                        <a href="https:t.me/YangChessman">
+                            <img src="/public/img/tg.png" alt="tg">
+                        </a> 
+                    </div>
+                    <div class="vk">
+                        <a href="https://vk.com/saonai">
+                            <img src="/public/img/vk.png" class="vk" alt="vk">
+                        </a> 
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+    <p class="avtor">
+        © YangChessman
+    </p>
+    <script src="static/scripts/script.js"></script>
+</body>
+
+</html>
