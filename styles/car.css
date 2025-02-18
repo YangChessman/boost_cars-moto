@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #ffffff;
+    font-family: 'Jost', sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  .Main-image {
+    position: absolute;
+    top: 78px;
+    right: -576px;
+    z-index: -1;
+  }
+  .nav-name{
+    display: flex;
+    align-items: center;
+    gap:11px;
+}
+
+.nav-name p{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.nav-name img{
+    max-width: 55px;
+    max-height: 53px;
+}
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .button {
+    width: 344px;
+    height: 69px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #194A37;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: .3s;
+    &:hover{
+      color: white;
+      background-color: rgba(0, 0, 0, 1);
+    }
+  }
+  
+  .button.white-button {
+    background-color: #194A37;
+    transition: 0.3s;
+  }
+  .button.white-button:hover {
+    opacity: 0.7px;
+  }
+  .main {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .black-box {
+    position: absolute;
+    width: 477px;
+    height: 100%;
+    top: 0;
+    background-color: #194A37;
+    z-index: -2;
+    right: calc(50% - 780px);
+  }
+  
+  .header {
+    padding: 46px 0;
+  }
+  
+  .header .container {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .menu {
+    margin-left: 177px;
+    margin-right: auto;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 65px;
+  }
+  
+  .menu ul a {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .menu ul a:hover {
+    color: #194A37;
+  }
+  
+  .phone {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: normal;
+  }
+  
+  .main-content {
+    padding-top: 100px;
+    padding-bottom: 175px;
+  }
+  .main-content .container {
+    position: relative;
+  }
+  .main-info {
+    max-width: 755px;
+  }
+  
+  .main-info h1 {
+    font-size: 80px;
+    margin-bottom: 40px;
+    font-weight: normal;
+    color: #000000;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 85%;
+  }
+  
+  .main-info p {
+    font-size: 24px;
+    line-height: 120%;
+    color: black;
+    max-width: 470px;
+    margin-bottom: 60px;
+  }
+
+  .Main-image {
+    position: absolute;
+    top: -50px;
+    width: 800px;
+    right: -300px;
+    z-index: -1;
+  }
+
+  .cars {
+    background-color: #194A37;
+    padding: 130px 0;
+  }
+  .cars h2 {
+    font-size: 65px;
+    font-weight: 500;
+    color: white;
+  }
+  .cars-content {
+    display: flex;
+    padding-top: 60px;
+  }
+  .cars-filter {
+    margin-right: 77px;
+    align-self: flex-start;
+    position: sticky;
+    top: 20px;
+  }
+  .cars-filter ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    list-style: none;
+  }
+  .cars-filter ul li {
+    width: 127px;
+    padding: 16px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+  }
+  .cars-filter ul li.active,
+  .cars-filter ul li:hover {
+    color: #5EA589;
+    font-weight: 600;
+    border: 5px solid #5EA589;
+  }
+  .cars-items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  
+  .car {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+  }
+  
+  .car img {
+    border-radius: 7px;
+    max-width: 568px;
+  }
+  .car-ditailes {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .car-ditailes h4 {
+    font-size: 30px;
+    line-height: 120%;
+    margin-bottom: 20px;
+  }
+  .car-ditailes p {
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: normal;
+    color: #5d5d5d;
+    height: 100px;
+  }
+  .car-action {
+    margin-top: auto;
+  }
+  .car-action ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .car-period {
+    font-size: 16px;
+    line-height: 120%;
+    color: #5d5d5d;
+    margin-bottom: 5px;
+  }
+  .car-prise {
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .car-prise span {
+    font-size: 16px;
+    line-height: 120%;
+    color: black;
+  }
+  .car-action .button {
+    width: 100%;
+  }
+  
+  .order {
+    padding-top: 159px;
+    padding-bottom: 130px;
+  }
+  
+  .order .container {
+    position: relative;
+  }
+  
+  .order img {
+    position: absolute;
+    top: -25px;
+    left: -350px;
+    width: 900px;
+  }
+  
+  .order form {
+    margin-left: 714px;
+    max-width: 486px;
+  }
+  .order h3 {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .order p {
+    font-size: 24px;
+    line-height: 120%;
+    color: #5d5d5d;
+    font-weight: 300;
+    margin-bottom: 60px;
+    max-width: 455px;
+  }
+  .order-form {
+    width: 344px;
+  }
+  
+  ::placeholder {
+    color: black;
+  }
+  
+  .order-form input {
+    width: 130%;
+    height: 68px;
+    padding: 24px 20px;
+    box-sizing: border-box;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-bottom: 15px;
+    font-size: 16px;
+    outline: none;
+  }
+
+  
+  .footer {
+    margin-left: 100px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    border-radius: 30px;
+    color: #ffffff;
+    max-width: 85%;
+  }
+  .footer p{
+    color: white;
+  }
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rights {
+    font-size: 24px;
+    line-height: 90%;
+    letter-spacing: normal;
+    font-weight: 500;
+  }
+  .order-form button{
+    width: 450px;
+    transition: 0.5s;
+  }
